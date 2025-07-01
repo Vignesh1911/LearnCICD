@@ -54,6 +54,7 @@ public class TestCase3ScreenShotListener {
 		String c = nokia.findElement(By.xpath(".//h4/a")).getText();
 		nokia.findElement(By.className("btn-info")).click();
 		System.out.println(c);
+		System.out.println(c);
 	}
 	
 	@Test
